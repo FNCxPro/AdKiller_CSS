@@ -1,0 +1,18 @@
+/*
+ * AdKiller v0.1.0
+ * This style is intended to be used alongside uBlock Origin or other adblocking extensions.
+ */
+
+@-moz-document domain("outlook.live.com") {
+._n_h {
+    display: none;
+    width: 0;
+    height: 0;
+}
+#GoToNextRegion {
+    width: 100% !important;
+}
+#primaryContainer > div:nth-child(7) {
+    width: 100% !important
+}
+}
